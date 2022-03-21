@@ -14,7 +14,7 @@ var errors = require('../lib/sails-migrations/errors');
 var _ = require('lodash');
 
 var cli = new Liftoff({
-  name: 'sails-migrations',
+  name: '@pairadime/sails-migrations',
   file: 'migrationsFile',
   extensions: require('interpret').jsVariants
 });

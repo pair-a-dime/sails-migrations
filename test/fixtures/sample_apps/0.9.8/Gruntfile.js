@@ -469,7 +469,7 @@ module.exports = function (grunt) {
     'sails-linker:devTplJADE'
   ]);
   grunt.loadNpmTasks('gake');
-  grunt.loadNpmTasks('sails-migrations');
+  grunt.loadNpmTasks('@pairadime/sails-migrations');
 
   // When API files are changed:
   // grunt.event.on('watch', function(action, filepath) {
